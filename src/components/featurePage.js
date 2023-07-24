@@ -13,11 +13,11 @@ class Header extends Component{
     inputNameHandler = (event) => {
         console.log(event.target.value);
         this.setState({
-            keywords:''
+            keywords: ''
         })
     }
 
-    addOne(){
+    addOne = () =>{
         this.setState((state, props)=>({
             count: state.count + 1
         }))
@@ -36,6 +36,7 @@ class Header extends Component{
         
         return(
             <header>
+                
                 <div className='App-link'> Date {this.getYear()} </div>
 
                 <br/>
