@@ -1,26 +1,13 @@
 import React, {Component} from 'react';
 import './App.css'
+import JSON from './db.json'
+import NewsList from './newsList';
 
 class Header extends Component{
 
     state = {
-        name: 'Francis',
-        title: 'website',
-        keywords:'',
+        content: JSON,
         count:0
-    }
-
-    inputNameHandler = (event) => {
-        console.log(event.target.value);
-        this.setState({
-            keywords: ''
-        })
-    }
-
-    addOne = () =>{
-        this.setState((state, props)=>({
-            count: state.count + 1
-        }))
     }
 
     getYear(){
@@ -31,24 +18,14 @@ class Header extends Component{
         return day+ "/" + month + "/" + year;
     }
 
+
     render(){
-
-        
+        console.log(this.state.content)
         return(
-            <header>
-                
-                <div className='App-link'> Date {this.getYear()} </div>
-
-                <br/>
-
-                <div>Enter your name </div>
-
-                <input  className='App'
-                    onChange={this.inputNameHandler}
+            <header className='App'>
+                <NewsList content = {this.state.content}
                 />
-
-                <div> {this.state.count} </div>
-                <button onClick={ ()=> this.addOne() } >click on me</button>
+                <p> Date: {this.getYear()}</p>
             </header>   
         ) 
     }

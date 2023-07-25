@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "title": "About me",
+        "feed": "I am a highschool senior passionate about maths and coding. I have an extensive background in education and have over a 1000 hours of tutoring grades 1-11. My service is highly personalized, focused on accomodating all the needs of diverse learners."
+    },
+
+    
+    {
+        "id" : 2,
+        "title": "Mission",
+        "feed": "My mission with every student is to create a plan dedicated towards each student and ensure that the student is learning at a comfortable pace all while still providing them with engaging content"
+    }
+
+]
