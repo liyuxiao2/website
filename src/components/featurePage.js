@@ -31,8 +31,7 @@ function MyInfo(props) {
                 <div>
                     <h3> {item.title} </h3>
                     <div> {item.feed} </div>
-
-                </div>
+               </div>
             ))}
         </>
     )
@@ -78,7 +77,7 @@ class Header extends Component{
             <header className='App'>
                 <MyInfo content = {this.state.content}/>
                 <Profile/> 
-                <Button color = "secondary"> Hello! </Button>
+                <Button  variant = "contained" color = "primary"> Hello! </Button>
             </header>  
         ) 
     }
