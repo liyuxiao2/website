@@ -1,6 +1,25 @@
 import React, {Component} from 'react';
 import './App.css'
 import JSON from './db.json'
+import Button from '@mui/material/Button';
+
+//Roboto font
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
+//Google Web Fonts
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/>;
+
+<link 
+rel="stylesheet" 
+href="https://fonts.googleapis.com/icon?family=Material+Icons" />;
+
 
 
 
@@ -43,13 +62,7 @@ function Profile() {
   }
   
 
- function getYear(){
-    const date = new Date();
-    let day = date.getDate();
-    let month = date.getMonth();
-    let year = date.getFullYear();
-    return day+ "/" + month + "/" + year;
-}
+
 
 class Header extends Component{
 
@@ -64,8 +77,8 @@ class Header extends Component{
         return(
             <header className='App'>
                 <MyInfo content = {this.state.content}/>
-                <p> Date: {getYear()}</p>
                 <Profile/> 
+                <Button color = "secondary"> Hello! </Button>
             </header>  
         ) 
     }
