@@ -5,8 +5,7 @@ import JSON from './db.json'
 
 
 //displays the about me text on the screen
-function NewsList(props) {
-    console.log(props)
+function MyInfo(props) {
     return(
         <>
             {props.content.map((item)=> (
@@ -44,6 +43,13 @@ function Profile() {
   }
   
 
+ function getYear(){
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth();
+    let year = date.getFullYear();
+    return day+ "/" + month + "/" + year;
+}
 
 class Header extends Component{
 
@@ -52,22 +58,13 @@ class Header extends Component{
         count:0
     }
 
-    getYear(){
-        const date = new Date();
-        let day = date.getDate();
-        let month = date.getMonth();
-        let year = date.getFullYear();
-        return day+ "/" + month + "/" + year;
-    }
-
-
 
     render(){
         console.log(this.state.content)
         return(
             <header className='App'>
-                <NewsList content = {this.state.content}/>
-                <p> Date: {this.getYear()}</p>
+                <MyInfo content = {this.state.content}/>
+                <p> Date: {getYear()}</p>
                 <Profile/> 
             </header>  
         ) 

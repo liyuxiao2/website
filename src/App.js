@@ -6,7 +6,7 @@ import Header from './components/featurePage';
 function App() {
   return (
     <div className='App-header'>
-      <h1> Liyu Xiao's Tutoring Service </h1> 
+      <h1> Hey I'm Liyu Xiao </h1> 
       <Header/>
     </div>
   );
