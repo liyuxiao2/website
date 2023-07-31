@@ -19,4 +19,6 @@ function App() {
   );
 }
 
+//alias firebase="`npm config get prefix`/bin/firebase"
+
 export default App;
