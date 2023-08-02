@@ -1,5 +1,6 @@
 import './components/App.css';
 import Header from './components/featurePage';
+import ContactPage from './components/contactPage';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Navbar from './components/navbar';
 
@@ -10,9 +11,10 @@ function App() {
     <div className='App-header'>
       <h1> Hey I'm Liyu Xiao  </h1> 
       <Router>
-        <Navbar/>
+        <Navbar className = 'App-header' />
           <Routes> 
-            <Route path = "/" element = {<Header/>} />
+            <Route path = "Header" element = {<Header/>} />
+            <Route path = "Contact" element = {<ContactPage/>} />
           </Routes>
       </Router>
     </div>
