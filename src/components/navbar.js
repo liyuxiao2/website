@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import "./App.css"
+import "./CSS/App.css"
 import { BottomNavigation} from "@mui/material";
 import { BottomNavigationAction } from '@mui/material';
 
@@ -10,9 +10,9 @@ function Layout() {
         <BottomNavigation 
             showLabels 
         >
-            <BottomNavigationAction label = {<Link to = "Header" > Header </Link>} />
+            <BottomNavigationAction label = {<Link to = "Header" > About me </Link>} />
             <BottomNavigationAction label= {<Link to= "Contact" > Contact</Link> } />
-            <BottomNavigationAction label="Nearby"  />
+            <BottomNavigationAction label=  {<Link to = "Courses" > Courses </Link>}/>
         </BottomNavigation>
         </div>
     )

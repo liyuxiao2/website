@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import './App.css'
-import JSON from './db.json'
+import './CSS/App.css'
+import JSON from './functions/FeaturePage.json'
 import Button from '@mui/material/Button';
+import MyInfo from './functions/myInfo';
 
 //Roboto font
 import '@fontsource/roboto/300.css';
@@ -24,18 +25,7 @@ href="https://fonts.googleapis.com/icon?family=Material+Icons" />;
 
 
 //displays the about me text on the screen
-function MyInfo(props) {
-    return(
-        <>
-            {props.content.map((item)=> (
-                <div>
-                    <h3> {item.title} </h3>
-                    <div> {item.feed} </div>
-               </div>
-            ))}
-        </>
-    )
-}
+
 
 //image
 
@@ -66,8 +56,7 @@ function Profile() {
 class Header extends Component{
 
     state = {
-        content: JSON,
-        count:0
+        content: JSON
     }
 
 
@@ -83,4 +72,5 @@ class Header extends Component{
     }
 }
 
-export default Header
+export default Header;
+
