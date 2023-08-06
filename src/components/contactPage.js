@@ -6,7 +6,7 @@ class ContactPage extends Component{
     render(){
         return(
             <div className= 'App' >
-                Contact me at: 
+                Contact me at: liyuxiao2@gmail.com
             </div>
         )
     }

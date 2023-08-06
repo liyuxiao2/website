@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './CSS/App.css'
 import JSON from './functions/FeaturePage.json'
-import Button from '@mui/material/Button';
 import MyInfo from './functions/myInfo';
 
 //Roboto font
@@ -38,7 +37,7 @@ function Profile() {
     return (
       <>
         <img
-          className= "Header"
+          className= "App"
           src={user.image}
           alt={'Photo of ' + user.name}
           style={{
@@ -63,10 +62,9 @@ class Header extends Component{
     render(){
         console.log(this.state.content)
         return(
-            <header className='App'>
-                <MyInfo content = {this.state.content}/>
+            <header className='App-header'>
                 <Profile/> 
-                <Button  variant = "contained" color = "primary"> Hello! </Button>
+                <MyInfo content = {this.state.content}/>
             </header>  
         ) 
     }

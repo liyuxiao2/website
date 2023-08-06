@@ -21,7 +21,7 @@ function Layout() {
 }
 function Navbar () {
     return (
-      <nav>
+      <nav className>
         <Layout/>
       </nav>
     )
