@@ -9,19 +9,19 @@
     { 
         "id" : 2,
         "title": "Grade 10 Math (MPM2D)",
-        "feed": "This course enables students to broaden their understanding of relationships and extend their problem-solving and algebraic skills through investigation, the effective use of technology, and abstract reasoning. Students will explore quadratic relations and their applications; solve and apply linear systems; verify properties of geometric figures using analytic geometry; and investigate the trigonometry of right and acute triangles. Students will reason mathematically and communicate their thinking as they solve multi-step problems."
+        "feed": "This course enables students to broaden their understanding of relationships and extend their problem-solving and algebraic skills through investigation, the effective use of technology, and abstract reasoning. Students will explore quadratic relations and their applications solve and apply linear systems verify properties of geometric figures using analytic geometry and investigate the trigonometry of right and acute triangles. Students will reason mathematically and communicate their thinking as they solve multi-step problems."
     },
 
     {
         "id" : 3,
         "title": "Grade 11 Functions (MCR3U)",
-        "feed": "This course introduces the mathematical concept of the function by extending students’ experiences with linear and quadratic relations. Students will investigate properties of discrete and continuous functions, including trigonometric and exponential functions; represent functions numerically, algebraically, and graphically; solve problems involving applications of functions; investigate inverse functions; and develop facility in determining equivalent algebraic expressions. Students will reason mathematically and communicate their thinking as they solve multi-step problems"
+        "feed": "This course introduces the mathematical concept of the function by extending students’ experiences with linear and quadratic relations. Students will investigate properties of discrete and continuous functions, including trigonometric and exponential functions represent functions numerically, algebraically, and graphically solve problems involving applications of functions investigate inverse functions and develop facility in determining equivalent algebraic expressions. Students will reason mathematically and communicate their thinking as they solve multi-step problems."
     },
 
     {
         "id": 4,
         "title": "Grade 12 Advanced Functions (MHF4U)",
-        "feed": "This course extends students’ experience with functions. Students will investigate the properties of polynomial, rational, logarithmic, and trigonometric functions; develop techniques for combining functions; broaden their understanding of rates of change; and develop facility in applying these concepts and skills. Students will also refine their use of the mathematical processes necessary for success in senior mathematics. This course is intended both for students taking the Calculus and Vectors course as a prerequisite for a university program and for those wishing to consolidate their understanding of mathematics before proceeding to any one of a variety of university programs."
+        "feed": "This course extends students’ experience with functions. Students will investigate the properties of polynomial, rational, logarithmic, and trigonometric functions develop techniques for combining functions broaden their understanding of rates of change and develop facility in applying these concepts and skills. Students will also refine their use of the mathematical processes necessary for success in senior mathematics. This course is intended both for students taking the Calculus and Vectors course as a prerequisite for a university program and for those wishing to consolidate their understanding of mathematics before proceeding to any one of a variety of university programs."
     }
 
 ]

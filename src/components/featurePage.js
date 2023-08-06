@@ -62,9 +62,9 @@ class Header extends Component{
     render(){
         console.log(this.state.content)
         return(
-            <header className='App-header'>
-                <Profile/> 
+            <header className='App'>
                 <MyInfo content = {this.state.content}/>
+                <Profile className = "center"/>
             </header>  
         ) 
     }

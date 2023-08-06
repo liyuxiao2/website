@@ -12,9 +12,9 @@ function App() {
     <div className='App-header'>
       <h1> Liyu Xiao's Tutoring Service </h1> 
       <Router>
-        <Navbar className = 'App-header' />
+        <Navbar/>
           <Routes> 
-            <Route path = "Header" element = {<Header/>} />
+            <Route path = "Header" className = "App" element = {<Header/>} />
             <Route path = "Contact" element = {<ContactPage/>} />
             <Route path = "Courses" element = {<CoursesPage/>} />
           </Routes>
