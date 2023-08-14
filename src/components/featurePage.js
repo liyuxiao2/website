@@ -28,26 +28,7 @@ href="https://fonts.googleapis.com/icon?family=Material+Icons" />;
 
 //image
 
-const user = {
-    image: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    imageSize: 180
-}
 
-function Profile() {
-    return (
-      <>
-        <img
-          className= "App"
-          src={user.image}
-          alt={'Photo of ' + user.name}
-          style={{
-            width: user.imageSize,
-            height: user.imageSize
-          }}
-        />
-      </>
-    );
-  }
   
 
 
@@ -64,7 +45,6 @@ class Header extends Component{
         return(
             <header className='App'>
                 <MyInfo content = {this.state.content}/>
-                <Profile className = "center"/>
             </header>  
         ) 
     }
