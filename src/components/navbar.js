@@ -8,7 +8,6 @@ function Layout() {
     return(
         <div className="App">
         <BottomNavigation 
-            background-color = "blue"
             showLabels 
         >
             <BottomNavigationAction label = {<Link to = "Header" > About me </Link>} />
