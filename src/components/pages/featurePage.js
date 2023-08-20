@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './CSS/App.css'
-import JSON from './functions/FeaturePage.json'
-import MyInfo from './functions/myInfo';
+import JSON from '../functions/FeaturePage.json'
+import MyInfo from '../functions/myInfo';
 
 //Roboto font
 import '@fontsource/roboto/300.css';
@@ -41,7 +41,6 @@ class Header extends Component{
 
 
     render(){
-        console.log(this.state.content)
         return(
             <header className='App'>
                 <MyInfo content = {this.state.content}/>

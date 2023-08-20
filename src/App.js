@@ -1,9 +1,10 @@
-import './components/CSS/App.css';
-import Header from './components/featurePage';
-import ContactPage from './components/contactPage';
-import CoursesPage from './components/coursesPage';
+import './components/pages/CSS/App.css';
+import Header from './components/pages/featurePage';
+import ContactPage from './components/pages/contactPage';
+import CoursesPage from './components/pages/coursesPage';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Navbar from './components/navbar';
+import HomePage from './components/pages/homePage';
 
 
 
@@ -14,7 +15,8 @@ function App() {
       <Router>
         <Navbar/>
           <Routes> 
-            <Route path = "Header" className = "App" element = {<Header/>} />
+            <Route path = "Home" element = {<HomePage/>} />
+            <Route path = "Header" element = {<Header/>} />
             <Route path = "Contact" element = {<ContactPage/>} />
             <Route path = "Courses" element = {<CoursesPage/>} />
           </Routes>

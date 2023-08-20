@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './CSS/App.css';
-import Content from './functions/CoursesPage.json';
-import MyInfo from './functions/myInfo';
+import Content from '../functions/CoursesPage.json';
+import MyInfo from '../functions/myInfo';
 
 
 class CoursesPage extends Component{
