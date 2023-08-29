@@ -1,15 +1,17 @@
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import "./pages/CSS/App.css"
-import { BottomNavigation, ThemeProvider} from "@mui/material";
+import { BottomNavigation} from "@mui/material";
 import { BottomNavigationAction } from '@mui/material';
-import HomePage from './pages/homePage';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { lime, purple } from '@mui/material/colors';
 
-const primary = {
-  main: '#1976d2',
-  light: '#42a5f5',
-  dark: '#1565c0',
-  contrastText: '#fff',
-};
+const primary = createTheme({
+  palette: {
+    primary: lime,
+    secondary: purple,
+  },
+});
+
 
 
 function Layout() {
@@ -18,13 +20,12 @@ function Layout() {
         <BottomNavigation 
             showLabels 
         >
-            <ThemeProvider  theme ={primary}>
-              <BottomNavigationAction label=  {<Link to = "Home" > Home </Link>}/>
+          <ThemeProvider theme = {primary}>
+              <BottomNavigationAction variant = "body2" label=  {<Link to = "Home" > Home </Link>}/>
               <BottomNavigationAction label = {<Link to = "Header" > About me </Link>} />
               <BottomNavigationAction label= {<Link to= "Contact" > Contact</Link> } />
               <BottomNavigationAction label=  {<Link to = "Courses" > Courses </Link>}/>
-            </ThemeProvider>
-            
+          </ThemeProvider>
         </BottomNavigation>
         </div>
     )
