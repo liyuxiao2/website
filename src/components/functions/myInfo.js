@@ -1,6 +1,6 @@
 import React from 'react';
 import Divider from '@mui/joy/Divider/Divider';
-import { imageListClasses } from '@mui/material';
+
 import { Sheet } from '@mui/joy';
 
 function MyInfo(props) {
@@ -10,7 +10,7 @@ function MyInfo(props) {
                 <div>
                     
                     <Divider> {item.title} </Divider> 
-                    <Sheet variant = "soft"> {item.feed} </Sheet>
+                    <Sheet sx={{bgcolor: '#808080'}} variant = "none"> {item.feed} </Sheet>
                     <img 
                         className= "App"
                         src={item.image}

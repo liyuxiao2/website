@@ -3,6 +3,9 @@ import './CSS/App.css';
 import MyInfo from '../functions/myInfo';
 import Content from "/Users/liyuxiao/Documents/GitHub/website/src/components/functions/HomePage.json";
 
+
+
+
 class HomePage extends Component{
     state = {
         content: Content
