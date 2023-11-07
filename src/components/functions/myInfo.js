@@ -14,7 +14,7 @@ function MyInfo(props) {
                     <img 
                         className= "App"
                         src={item.image}
-                        alt={'Photo of ' + item.name}
+                        alt={""}
                         style={{
                             width: item.size,
                             height: item.size + 20
