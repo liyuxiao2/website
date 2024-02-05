@@ -17,9 +17,7 @@ function Layout() {
               }}
           >
                 <BottomNavigationAction label=  {<Link to = "Home" > Home </Link>}/>
-                <BottomNavigationAction label = {<Link to = "Header" > About me </Link>} />
-                <BottomNavigationAction label= {<Link to= "Contact" > Contact</Link> } />
-                <BottomNavigationAction label=  {<Link to = "Courses" > Courses </Link>}/>
+                <BottomNavigationAction label= {<Link to= "Project" > Projects </Link> } />
 
 
           </BottomNavigation>

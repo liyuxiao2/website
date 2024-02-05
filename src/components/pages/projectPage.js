@@ -8,7 +8,7 @@ import WatchLaterIcon from '@mui/icons-material/WatchLater';
 
 
 
-class ContactPage extends Component{
+class projectPage extends Component{
     render(){
         return(
             <div className= 'App' >
@@ -18,21 +18,10 @@ class ContactPage extends Component{
                 <Divider> <PhoneIcon/> Phone </Divider>
                 <a href = "tell: 647-894-2609"> 647-894-2609</a>
 
-                <Divider> <CheckCircleIcon/> Availability </Divider>
-                <p>  Tutoring services offered in Markham, Richmond Hill, and online</p>
-
-                <Divider> <WatchLaterIcon/> Opening Hours </Divider>
-                <p> Monday 3 - 7 P:M </p>
-                <p> Tuesday 3 - 7 P:M </p>
-                <p> Wednesday 3 - 7 P:M </p>
-                <p> Thursday 3 - 7 P:M </p>
-                <p> Friday 3 - 7 P:M </p> 
-                <p> Saturday 4 - 10 P:M </p>
-
             </div>
         )
     }
 }
 
-export default ContactPage;
+export default projectPage;
 
