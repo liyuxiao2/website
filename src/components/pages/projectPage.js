@@ -11,9 +11,13 @@ class ProjectPage extends Component{
             <div className= 'App' >
                     <Divider> 
                         <Stack spacing = {10}>
-                                <div className = "Projects"> <a href = "https://github.com/liyuxiao2/Fortopia">  Fortopia </a> </div>
-                                <img src = "https://drive.google.com/drive/u/1/home"> </img>
-                                <div className = "Projects"> Project 2 </div>
+                                <div className = "Projects"> 
+                                        <a className = "Project-text" href = "https://github.com/liyuxiao2/Fortopia">  Fortopia </a> 
+                                        <img className='center' src = "https://lh3.googleusercontent.com/drive-viewer/AEYmBYStRdEFNmY-uUWvt_brow_CVptCuFjusY2vi_6PGUGZdKOQWLiSLLK_K0jYWtXyUeLeiwZZM6bzDzz4Zw4CHwZE343A-Q=s1600" />
+                                </div>
+
+                                <div className = "Projects"> Calculator </div>
+
                                 <div className = "Projects"> Project 3 </div>
                             
                         </Stack> 
