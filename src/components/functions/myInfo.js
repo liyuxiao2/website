@@ -10,16 +10,7 @@ function MyInfo(props) {
                 <div>
                     
                     <Divider> {item.title} </Divider> 
-                    <Sheet sx={{bgcolor: '#808080'}} variant = "none"> {item.feed} </Sheet>
-                    <img 
-                        className= "App"
-                        src={item.image}
-                        alt={""}
-                        style={{
-                            width: item.size,
-                            height: item.size + 20
-                        }}
-                     />
+                    <Sheet sx={{bgcolor: 'rgba(0, 128, 255, 0.02)'}} variant = "none"> {item.feed} </Sheet>
                </div>
             ))}
         </>

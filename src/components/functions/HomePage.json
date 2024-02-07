@@ -1,7 +1,13 @@
 [
 {
     "id":1,
-    "feed": "Hey, my name is Liyu and I am a highschool student tutoring students through elementary to highschool. I have been tutoring since the start of the pandemic, inspired to educate and teach others. With over 500 hours of tutoring experience, understanding that every students needs are different, my tutoring style is adjustable and accommodating for every different learner. ",
-    "size": 200
+    "feed": "current highschool student heavily interested in the aspects of website design and computer science. With over 750 hours of tutoring and instruction, I have also worked extensively as a tutor",
+    "size": 300
+},
+
+{
+    "id": 2,
+    "feed":"Making games and apps are a passion of mine and I am currently working on learning how to develop websites on the front end and create new projects of mine as well.",
+    "size": 300
 }
 ]

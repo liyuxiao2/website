@@ -19,6 +19,8 @@ class ProjectPage extends Component{
                                 <div className = "Projects"> Calculator </div>
 
                                 <div className = "Projects"> Project 3 </div>
+
+                                
                             
                         </Stack> 
                     
