@@ -21,6 +21,7 @@ class HomePage extends Component{
         return(
             <Stack spacing = {7} className = "App">
                 <MyInfo content = {this.state.content}/>
+                
             </Stack>
         )
     }
