@@ -13,7 +13,7 @@ class ProjectPage extends Component{
                         <Stack spacing = {10}>
                                 <div className = "Projects"> 
                                         <a className = "Project-text" href = "https://github.com/liyuxiao2/Fortopia">  Fortopia </a> 
-                                        <img className='center' src = "https://lh3.googleusercontent.com/drive-viewer/AEYmBYStRdEFNmY-uUWvt_brow_CVptCuFjusY2vi_6PGUGZdKOQWLiSLLK_K0jYWtXyUeLeiwZZM6bzDzz4Zw4CHwZE343A-Q=s1600" />
+                                        <img className='center' src = "https://marketplacecdn.yoyogames.com/images/assets/1229/screenshots/8373_original.png?1451942524" />
                                 </div>
 
                                 <div className = "Projects"> Calculator </div>

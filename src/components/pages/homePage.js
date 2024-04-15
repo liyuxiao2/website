@@ -3,8 +3,11 @@ import './CSS/App.css';
 import MyInfo from '../functions/myInfo';
 import Content from "/Users/liyuxiao/Documents/GitHub/website/src/components/functions/HomePage.json";
 import Content1 from "/Users/liyuxiao/Documents/GitHub/website/src/components/functions/Paragraph2.json";
-import { Divider } from '@mui/joy';
 import { Stack } from '@mui/system';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import IconButton from '@mui/material/IconButton';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 
@@ -25,8 +28,10 @@ class HomePage extends Component{
                 <MyInfo content = {this.state.content}/>
 
 
-                <image ref = "picture of me jitt"> liyu </image>
                 <MyInfo content = {this.state.content1}/>
+
+
+
                 <p></p>
                 <p></p>
                 <p></p>
@@ -34,11 +39,23 @@ class HomePage extends Component{
                 <p></p>
                 <p></p>
 
-                <Divider>
-                <button className = "App-Header" href = "https://github.com/liyuxiao2/Fortopia"> Link to Linkedin </button>
-                <button  className = "App-Header" href = "https://github.com/liyuxiao2/Fortopia"> Link to Github </button>
-                <button className = "App-Header" href = "https://github.com/liyuxiao2/Fortopia"> Link to Gmail </button>
-                </Divider>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+
+                <Stack direction = "row" spacing={(1)}>
+                    <IconButton  href = "https://github.com/liyuxiao2/Fortopia">
+                        <GitHubIcon/>
+                    </IconButton>
+                    <IconButton  href = "https://www.linkedin.com/in/liyu-xiao-593176206/">
+                        <LinkedInIcon/>
+                    </IconButton>
+                    <IconButton  href = "mailto:liyuxiao2@gmail.com">
+                        <EmailIcon/>
+                    </IconButton>
+                </Stack>
             </Stack>
 
         )
