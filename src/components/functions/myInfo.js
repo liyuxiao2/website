@@ -10,11 +10,13 @@ function MyInfo(props) {
                 <div>
                     
                     <Divider> {item.title} </Divider> 
-                    <Sheet sx={{bgcolor: 'rgba(0, 128, 255, 0.02)'}} variant = "none"> {item.feed} </Sheet>
+                    <Sheet sx={{bgcolor: 'rgba(0, 0, 255, 0.02)'}} variant = "none"> {item.feed} </Sheet>
                </div>
             ))}
         </>
     )
 }
+
+
 
 export default MyInfo;
