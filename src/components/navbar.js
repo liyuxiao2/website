@@ -13,7 +13,7 @@ function Layout() {
           <BottomNavigation 
               showLabels 
               sx={{
-                bgcolor: 'rgba(0, 128, 255, 0.02)',
+                bgcolor: 'rgb(249,246,221)',
               }}
           >
                 <BottomNavigationAction className = "App" label=  {<Link to = "Home" > Home </Link>}/>

@@ -3,6 +3,8 @@ import Divider from '@mui/joy/Divider/Divider';
 
 import { Sheet } from '@mui/joy';
 
+
+
 function MyInfo(props) {
     return(
         <>
@@ -10,7 +12,12 @@ function MyInfo(props) {
                 <div>
                     
                     <Divider> {item.title} </Divider> 
-                    <Sheet sx={{bgcolor: 'rgba(0, 0, 255, 0.02)'}} variant = "none"> {item.feed} </Sheet>
+                    <Sheet sx={{bgcolor: 'rgb(249,246,221)'}} variant = "plain">
+                         
+                         
+                         <p> {item.feed} </p>
+                         
+                    </Sheet>
                </div>
             ))}
         </>
