@@ -1,8 +1,5 @@
 import React from 'react';
 import { Box, Typography, Divider, Grid, IconButton, Stack } from '@mui/material';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
 
 const AboutMePage = () => {
   return (
@@ -37,18 +34,6 @@ const AboutMePage = () => {
         </Grid>
 
       </Grid>
-      {/* Social media icons */}
-      <Stack direction="row" spacing={1} justifyContent="center">
-        <IconButton href="https://github.com/liyuxiao2">
-          <GitHubIcon />
-        </IconButton>
-        <IconButton href="https://www.linkedin.com/in/liyu-xiao-593176206/">
-          <LinkedInIcon />
-        </IconButton>
-        <IconButton href="mailto:liyuxiao2@gmail.com">
-          <EmailIcon />
-        </IconButton>
-      </Stack>
     </Box>
   );
 };
