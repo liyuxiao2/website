@@ -1,9 +1,46 @@
 import React from 'react';
 import { Box, Typography, Divider, Grid, IconButton, Stack } from '@mui/material';
+import CardContent from "@mui/material/CardContent";
+
+const bull = (
+  <Box
+    component="span"
+    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
+  >
+    •
+  </Box>
+);
+
+const card = (
+  <React.Fragment>
+    <CardContent>
+      <Typography variant = "body1" color = "red.main"> Creative </Typography>
+      <Typography variant="h4" component="div">
+      krɪ{bull}eɪ{bull}tɪv
+      </Typography>
+      <Typography sx={{ mb: 1.5 }}>noun</Typography>
+      <Typography 
+       variant="body1"
+       sx={{
+         fontFamily: "body1",
+         color: "brown.main",
+         fontWeight: "700",
+         zIndex: 1,
+       }}
+     >
+        to generate new ideas, concepts, or solutions through imagination and
+        original thinking.
+      </Typography>
+    </CardContent>
+  </React.Fragment>
+);
 
 const AboutMePage = () => {
   return (
     <Box sx={{ padding: '80px', maxWidth: '800px', margin: '0 auto'}}>
+      <div style={{ maxWidth: 400, margin: "auto", zIndex: 1 }}>
+            {card}
+      </div>
       <Divider sx={{ marginBottom: '20px' }} />
       <Grid container spacing={2}>
         <Grid item xs={12}>

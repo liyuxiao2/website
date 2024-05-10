@@ -45,6 +45,13 @@ const theme = createTheme({
     red: {
       main: '#FF3B30', // Red
     },
+    brown: {
+      main: '#4A2E28', // Dark brown
+    },
+
+    pink: {
+      main: '#ff80ab', //light pink
+    },
   },
 });
 

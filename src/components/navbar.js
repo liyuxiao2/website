@@ -10,6 +10,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { IconButton } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import CreateIcon from '@mui/icons-material/Create';
+import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
 export default function TemporaryDrawer() {
@@ -24,9 +25,9 @@ export default function TemporaryDrawer() {
       <List>
         {["Home", "Projects", "About Me"].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton component={Link} to={text === 'Home' ? '/' : '/${text.toLowerCase()}'} onClick={toggleDrawer(false)}> 
+            <ListItemButton component={Link} to={text === 'Home' ? '/' : text === "Projects"  ?  '/projects': '/about me'} onClick={toggleDrawer(false)}> 
               <ListItemIcon>
-                {text === "Home" ? <HomeIcon /> : text === "Projects" ? <CreateIcon /> : <CreateIcon />}
+                {text === "Home" ? <HomeIcon /> : text === "Projects" ? <CreateIcon /> : <SentimentVerySatisfiedIcon />}
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
