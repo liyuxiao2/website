@@ -6,7 +6,7 @@ const ProjectPage = () => {
     <Box sx={{ padding: '80px', maxWidth: '800px', margin: '0 auto'}}>
       <Stack spacing={5} sx={{ marginTop: '20px' }}>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography variant="h1" sx={{ color: 'black', marginRight: '10px', fontWeight : "400", fontSize: "100px"}}> Fortopia:</Typography>
+          <Typography variant="h1" sx={{ color: 'black', marginRight: '10px', fontWeight : "1000", fontSize: "50px"}}> Fortopia:</Typography>
           <Typography variant="body1" sx={{ color: 'black' }}>Runner platform game, incorporates OOP principles</Typography>
         </Box>
 
@@ -14,11 +14,17 @@ const ProjectPage = () => {
         
 
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography variant="h2" sx={{ color: 'black', marginRight: '10px', fontWeight : "400", fontSize: "100px" }}>Calculator:</Typography>
-          <Typography variant="body1" sx={{ color: 'black' }}>Made using react, CSS, and HTML</Typography>
+          <Typography variant="h2" sx={{ color: 'black', marginRight: '10px', fontWeight : "1000", fontSize: "50px" }}>Space Invaders:</Typography>
+          <Typography variant="body1" sx={{ color: 'black' }}>Made using pygame and OOP principles </Typography>
         </Box>
-        <a href="https://github.com/liyuxiao2/Calculator"> <img src="https://i.ibb.co/bHF7hd2/Calculator.png" alt="Calculator-1" border="0" width={200} height={400}/></a>
-        {/* Add more projects as needed */}
+        <a href="https://github.com/liyuxiao2/python-game"> <img src="https://cdn.dribbble.com/users/1035257/screenshots/4835179/media/1d639a0b1458a1b300aea36206e99c8c.gif"  alt="Space invaders" border="0" width={500} /></a>
+
+        <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Typography variant="h2" sx={{ color: 'black', marginRight: '10px', fontWeight : "1000", fontSize: "50px" }}>Calculator:</Typography>
+          <Typography variant="body1" sx={{ color: 'black' }}>Made using react, css and html </Typography>
+        </Box>
+        <a href="https://github.com/liyuxiao2/Calculator"> <img src = "https://uploads.sitepoint.com/wp-content/uploads/2021/09/1630918493final_demo.gif"  alt="Calculator" border="0" width={500} /></a>
+        
       </Stack>
     </Box>
   );
