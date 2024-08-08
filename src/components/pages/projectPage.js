@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Typography, Divider, Stack } from '@mui/material';
+import stocksimimage from '../../Images/start.png';
+import fortopiaimg from '../../Images/fortopia.jpg';
 
 const ProjectPage = () => {
   return (
@@ -10,7 +12,7 @@ const ProjectPage = () => {
           <Typography variant="body1" sx={{ color: 'black' }}>Runner platform game, incorporates OOP principles</Typography>
         </Box>
 
-        <a href="https://github.com/liyuxiao2/Fortopia"> <img src="https://i.ibb.co/d4w9GPJ/Fortopia-1.jpg" alt="Fortopia-1" border="0" width={500}/></a>
+        <a href="https://github.com/liyuxiao2/Fortopia"> <img src={fortopiaimg} alt="Fortopia-1" border="0" width={500}/></a>
         
 
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -25,6 +27,11 @@ const ProjectPage = () => {
         </Box>
         <a href="https://github.com/liyuxiao2/Calculator"> <img src = "https://uploads.sitepoint.com/wp-content/uploads/2021/09/1630918493final_demo.gif"  alt="Calculator" border="0" width={500} /></a>
         
+        <Box sx = {{display: 'flex', alignItems: 'center'}}>
+          <Typography variant="h2" sx={{ color: 'black', marginRight: '10px', fontWeight : "1000", fontSize: "50px" }}>Pokemon Stock Simulator:</Typography>
+          <Typography variant="body1" sx={{ color: 'black' }}> Simulated a stock market graph, with the theme of pokemon. Made in Greenfoot, with java. </Typography>
+        </Box>
+        <a href="https://github.com/Mochai-M/PokemonStockSimulator"> <img src = {stocksimimage}  alt="stock simulator" border="0" width={500} /></a>
       </Stack>
     </Box>
   );
