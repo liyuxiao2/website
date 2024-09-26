@@ -137,15 +137,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Java",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Game Development",
       progressPercentage: "60%"
     }
   ],
@@ -344,19 +344,12 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Im open to anything Feel Free to reach Out!",
+  number: "+647-894-2609",
+  email_address: "liyuxiao2006@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -373,7 +366,6 @@ export {
   blogSection,
   talkSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };

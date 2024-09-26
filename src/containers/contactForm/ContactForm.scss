@@ -1,0 +1,132 @@
+@import "../../_globalColor";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $darkBackground; // Dark theme background
+}
+
+/* Rectangle Card Layout */
+.rectangle {
+  background: rgba(255, 255, 255, 0.1); // Transparent background to blend with dark theme
+  width: 600px; // Larger card width to accommodate bigger input fields
+  padding: 40px; // More padding for space
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5); // Darker shadow for a subtle effect
+  transition: all 0.3s ease;
+  margin-top: 50px;
+}
+
+.rectangle:hover {
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8); // More prominent hover effect with a darker shadow
+}
+
+.talk-card-title {
+  color: $textColorDark; // Light text color for contrast
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); // Subtle separator line under the title
+}
+
+/* Name and Email Input Fields */
+.talk-card-input {
+  width: 100%;
+  padding: 20px; // Increased padding for larger text boxes
+  margin-bottom: 30px; // More space between the fields
+  background-color: rgba(255, 255, 255, 0.15); // Darker input background to blend with the dark theme
+  border: 1px solid rgba(255, 255, 255, 0.3); // Subtle border
+  border-radius: 8px;
+  font-size: 38px; // Increased font size to match the rest of the form
+  font-weight: 400;
+  font-family: "Arial", sans-serif; // Ensuring consistent font across the form
+  color: $textColorDark; // Light text inside input fields for better readability
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3); // Subtle inner shadow
+  transition: border 0.3s ease, background-color 0.3s ease;
+  height: 60px; // Increased height for larger input fields
+}
+
+.talk-card-input::placeholder {
+  font-size: 38px; // Increased placeholder font size for readability
+  font-family: "Arial", sans-serif; // Matching font
+  color: rgba(255, 255, 255, 0.6); // Lighter placeholder color for readability
+}
+
+.talk-card-input:focus {
+  background-color: rgba(255, 255, 255, 0.2); // Slightly brighter background on focus
+  border-color: $buttonColor; // Focus border color
+  outline: none;
+}
+
+/* Textarea */
+.talk-card-textarea {
+  width: 95%;
+  padding: 20px; // Larger padding for a spacious feel
+  height: 200px; // Larger textarea height for more writing space
+  margin-bottom: 30px; // Space between textarea and button
+  background-color: rgba(255, 255, 255, 0.15); // Matching the input field background
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 20px; // Matching font size of input fields
+  font-family: "Arial", sans-serif; // Ensuring font consistency
+  font-weight: 400;
+  color: $textColorDark;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: border 0.3s ease, background-color 0.3s ease;
+  resize: vertical; // Allow vertical resizing
+}
+
+.talk-card-textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: $buttonColor;
+  outline: none;
+}
+
+/* Button */
+.talk-button {
+  background-color: $buttonColor; // Using the button color from global styles
+  color: $textColorDark; // Light text color for contrast
+  width: 100%;
+  padding: 15px; // Slightly larger button for balance with larger text boxes
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); // Soft shadow for the button
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.talk-button:hover {
+  background-color: $buttonHover; // Change color on hover
+  transform: translateY(-2px); // Lift button slightly on hover
+}
+
+.talk-button:active {
+  transform: translateY(0); // Reset position on click
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .rectangle {
+    width: 90%; // Make the card responsive on mobile
+    padding: 20px;
+  }
+
+  .talk-card-title {
+    font-size: 28px;
+  }
+
+  .talk-button {
+    font-size: 14px;
+  }
+
+  .talk-card-input {
+    font-size: 18px; // Adjust font size for mobile
+    padding: 15px; // Slightly reduced padding on mobile for better fit
+  }
+}
