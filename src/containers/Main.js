@@ -57,7 +57,6 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
             <Profile />
             <ContactForm />
             <Footer />

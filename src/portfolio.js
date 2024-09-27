@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Developer, having experience in building applications using Java, Python, Unity, C# and other frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1Q4StrlfYJgJP8BckqMZGIcfl8xjno9h6/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://www.dropbox.com/scl/fi/5pb7qt1rnkw95vdbtxhqu/Resume.pdf?rlkey=soafv49n81af2shkp7sly46yq&st=fr3fdfmi&dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,11 +47,11 @@ const skillsSection = {
   title: "What I do",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop games using python, java, and unity"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Create applications using react, HTML and CSS"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase"
     )
   ],
 
@@ -110,24 +109,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "McMaster University",
+      logo: require("./assets/images/mcmaster.png"),
+      subHeader: "BSAc in Computer Science",
+      duration: "September 2024 - April 2029",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -158,29 +144,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Python Tutpr",
+      company: "Upper Markham Learning Center",
+      companylogo: require("./assets/images/python_logo.png"),
+      date: "June 2024 – September 2024",
+      desc: "curated personalized lesson plans for over 25 students to create basic games and applications",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Math Tutor",
+      company: "Kumon",
+      companylogo: require("./assets/images/kumon_logo.png"),
+      date: "October 2021 – April 2024",
+      desc: "Taught students factorization, logarithims, trigonemtric identities, and derivative rules"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Chess Program instructor",
+      company: "City of Markham",
+      companylogo: require("./assets/images/city_markham.png"),
+      date: "Sep 2023 – August 2024",
+      desc: "Taught over 50 students, the basic rules of chess and simple tatics and strategy"
     }
   ]
 };
@@ -190,38 +172,62 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME OF THE PROJECTS I HAVE MADE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Fortopia.png"),
+      projectName: "Fortopia",
+      projectDesc: "Platform runner, where the goal is to get past obstacles to avoid being eliminated by the monsters!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github",
+          url: "https://github.com/liyuxiao2/Fortopia"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/black_jack.gif"),
+      projectName: "Black Jack",
+      projectDesc: "A remake of the card game black jack, made using pygame and OOP principles",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github",
+          url: "https://github.com/liyuxiao2/BlackJack"
         }
       ]
-    }
+    },
+
+    {
+      image: require("./assets/images/space_invaders.gif"),
+      projectName: "Space invaders",
+      projectDesc: "A remake of the game space invaders, made using pygame",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/space-invaders"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/calculator.gif"),
+      projectName: "Calculator",
+      projectDesc: "Simple Calculator made using J.S, HTML, and CSS",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/BlackJack"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -284,7 +290,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -308,7 +314,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -327,7 +333,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
