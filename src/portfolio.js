@@ -144,7 +144,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Python Tutpr",
+      role: "Python Tutor",
       company: "Upper Markham Learning Center",
       companylogo: require("./assets/images/python_logo.png"),
       date: "June 2024 – September 2024",
@@ -172,7 +172,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -219,15 +219,81 @@ const bigProjects = {
     {
       image: require("./assets/images/calculator.gif"),
       projectName: "Calculator",
-      projectDesc: "Simple Calculator made using J.S, HTML, and CSS",
+      projectDesc: "Built a calculator using JavaScript, HTML, and CSS.",
       footerLink: [
         {
           name: "Github",
-          url: "https://github.com/liyuxiao2/BlackJack"
+          url: "https://github.com/liyuxiao2/Calculator"
         }
       ]
     },
-
+    {
+      image: require("./assets/images/EtchASketch.png"),
+      projectName: "Etch A Sketch",
+      projectDesc: "Remade an Etch A Sketch using JavaScript, HTML, and CSS.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/EtchASketch"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Tasker.gif"),
+      projectName: "Tasker",
+      projectDesc: "Developed a task organizer app using JavaScript(ES6) and Webpack.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/Tasker"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Insurify.png"),
+      projectName: "Insurify",
+      projectDesc: "Created an insurance claim app using React, Flask, OpenAI API, and AWS.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/Insurify"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/HealMotion.png"),
+      projectName: "Heal Motion",
+      projectDesc: "Designed a fitness app for workout planning using React, Flask, and Gemini API.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/HealMotion"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/LibraryApp.png"),
+      projectName: "Library Application",
+      projectDesc: "Created a tool for managing library collections using JavaScript(ES6) and CSS.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/LibraryApp"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/TicTacToe.gif"),
+      projectName: "Tic Tac Toe",
+      projectDesc: "Implemented a classic Tic Tac Toe game using JavaScript, HTML, and CSS.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/liyuxiao2/TicTacToe"
+        }
+      ]
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
