@@ -114,24 +114,24 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Insurify.png"),
-      projectName: "Insurify",
-      projectDesc: "Created an insurance claim app using React, Flask, OpenAI API, and AWS.",
+      image: require("./assets/images/plan.png"),
+      projectName: "Flutter",
+      projectDesc: "B2B SaaS solution that empowers dating apps with AI-generated date itineraries",
       footerLink: [
         {
           name: "Github",
-          url: "https://github.com/liyuxiao2/Insurify"
+          url: "https://github.com/liyuxiao2/Flutter"
         }
       ]
     },
     {
-      image: require("./assets/images/HealMotion.png"),
-      projectName: "Heal Motion",
-      projectDesc: "Designed a fitness app for workout planning using React, Flask, and Gemini API.",
+      image: require("./assets/images/TutorMatch.png"),
+      projectName: "Tutor Match",
+      projectDesc: "Centralized platform that brings tutors/students together.",
       footerLink: [
         {
           name: "Github",
-          url: "https://github.com/liyuxiao2/HealMotion"
+          url: "https://github.com/liyuxiao2/TutorMatch"
         }
       ]
     },
