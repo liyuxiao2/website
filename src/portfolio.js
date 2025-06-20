@@ -23,9 +23,9 @@ const greeting = {
   username: "Liyu Xiao",
   title: "Hey, I'm Liyu",
   subTitle: emoji(
-    "A passionate Developer, having experience in building applications using Java, Python, Unity, C# and other frameworks."
+    "A fullstack Developer, having experience in building applications using Java, Python, React, C# and other Technologies."
   ),
-  resumeLink: "https://www.dropbox.com/scl/fi/5pb7qt1rnkw95vdbtxhqu/Resume.pdf?rlkey=soafv49n81af2shkp7sly46yq&st=fr3fdfmi&dl=0", // Set to empty to hide the button
+  resumeLink: "https://www.dropbox.com/scl/fi/pkbk26nspjn5zqeutqg49/LiyuXiaoResume.pdf?rlkey=a45s8eipvmhfg1l8j6iuoyh7i&st=e4rhapxu&dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
